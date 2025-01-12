@@ -1,3 +1,7 @@
 export default function Main() {
-  return <div>Home</div>;
+  return (
+    <main className="flex justify-center items-center px-72 h-screen">
+      Main
+    </main>
+  );
 }
