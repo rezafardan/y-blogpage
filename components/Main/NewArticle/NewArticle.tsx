@@ -4,8 +4,9 @@ import CardNewArticle from "@/components/Atomic/NewArticle/CardNewArticle";
 export default function NewArticle() {
   return (
     <section className="mb-10">
+      {/* BY PUBLISH DATE */}
       <header className="px-2 py-2 border-b font-extrabold text-xl">
-        ARTIKEL TERBARU (URUT BY PUBLISH DATE)
+        ARTIKEL TERBARU
       </header>
 
       <section>
