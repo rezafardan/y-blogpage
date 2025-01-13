@@ -1,7 +1,7 @@
-import Article from "./Article/Article";
-import Aside from "./Aside/Aside";
+import RandomArticle from "./RandomArticle/RandomArticle";
+import HighlightArticle from "./HighlightArticle/HighlightArticle";
 import Carousel from "./Carousel/Carousel";
-import Section from "./Section/Section";
+import NewArticle from "./NewArticle/NewArticle";
 
 export default function Main() {
   return (
@@ -10,11 +10,11 @@ export default function Main() {
 
       <main className="flex gap-4 min-w-full">
         <div className="flex flex-col flex-grow">
-          <Section />
-          <Article />
+          <NewArticle />
+          <RandomArticle />
         </div>
         <div>
-          <Aside />
+          <HighlightArticle />
         </div>
       </main>
     </section>

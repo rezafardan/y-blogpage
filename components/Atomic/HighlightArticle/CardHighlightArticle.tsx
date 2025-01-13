@@ -1,12 +1,12 @@
-interface SectionCardNewArticleProps {
+interface CardHighlightArticleProps {
   title?: string;
   date?: Date;
 }
 
-export default function SectionCardNewArticle({
+export default function CardHighlightArticle({
   title = "Title not found",
   date,
-}: SectionCardNewArticleProps) {
+}: CardHighlightArticleProps) {
   return (
     <div className="flex justify-start items-start gap-2 p-2">
       <div className="w-36 h-24 flex-shrink-0">
