@@ -5,10 +5,10 @@ import Section from "./Section/Section";
 
 export default function Main() {
   return (
-    <main className="p-72 flex flex-col">
+    <section className="px-72 flex flex-col">
       <Carousel />
 
-      <div className="flex min-w-full">
+      <main className="flex gap-4 min-w-full">
         <div className="flex flex-col flex-grow">
           <Section />
           <Article />
@@ -16,7 +16,7 @@ export default function Main() {
         <div>
           <Aside />
         </div>
-      </div>
-    </main>
+      </main>
+    </section>
   );
 }
