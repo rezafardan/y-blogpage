@@ -1,9 +1,11 @@
 interface SectionCardNewArticleProps {
+  coverimage?: string | undefined;
   title?: string;
   category?: string;
 }
 
 export default function CardNewArticle({
+  coverimage = "/assets/carousel-1.png",
   title = "Title not found",
   category = "Kategori tidak tersedia",
 }: SectionCardNewArticleProps) {
@@ -13,8 +15,8 @@ export default function CardNewArticle({
         {/* IMAGE */}
         <a href="#">
           <img
-            src="/assets/carousel-1.png"
-            alt=""
+            src={coverimage || undefined}
+            alt={title}
             className="w-full h-full object-cover rounded"
           />
         </a>
@@ -22,7 +24,7 @@ export default function CardNewArticle({
 
       {/* CONTENT */}
       <div className="flex flex-col justify-between flex-grow h-24 py-1">
-        <a href="" className="font-bold line-clamp-3">
+        <a href="" className="font-bold line-clamp-2">
           {title}
         </a>
 
