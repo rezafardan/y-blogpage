@@ -1608,7 +1608,7 @@ export const blogData = {
             },
             content: [
               {
-                text: "Sint aliquip nulla, tempor adipiscing, consectetur adipiscing nunc ultricies aliquip voluptate sed eu urna eros commodo velit. Urna in ullamco sunt. Ut sit nisi dolore quis dignissim nulla exercitation consectetur. Laboris doming ea fugiat ea commodo, tempor eu sed elit ut suscipit suscipit ut, ex doming quis velaliquam in consequat elit duis pulvinar sunt tempor. Dolore sed laboris voluptate. ",
+                text: "Sint aliquip nulla, tempor adipiscing, lorem ipsum consectetur adipiscing nunc ultricies aliquip voluptate sed eu urna eros commodo velit. Urna in ullamco sunt. Ut sit nisi dolore quis dignissim nulla exercitation consectetur. Laboris doming ea fugiat ea commodo, tempor eu sed elit ut suscipit suscipit ut, ex doming quis velaliquam in consequat elit duis pulvinar sunt tempor. Dolore sed laboris voluptate. ",
                 type: "text",
               },
             ],
