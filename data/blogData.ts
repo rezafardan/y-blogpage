@@ -1620,7 +1620,7 @@ export const blogData = {
             },
             content: [
               {
-                text: "Dolore consequat suscipit tempuribud laboris tempuribud nisi dolor velit ut laboris consectetur nostrud dolore pulvinar, providerent fugiat dignissim esse consequat sed sunt esse tempuribud. Duis dolore adipiscing harmud nunc sint ultricies elit nunc quis eu, sit pariatur magna esse dolore quis, harmud in ullamco sunt exercitation harmud ultricies ut dignissim laboris harmud tempuribud tempuribud eu duis nulla ullamco commodo laboris fugiat.",
+                text: "Dolore consequat suscipit laboris tempuribud nisi dolor velit ut laboris consectetur nostrud dolore pulvinar, providerent fugiat dignissim esse consequat sed sunt esse tempuribud. Duis dolore adipiscing harmud nunc sint ultricies elit nunc quis eu, sit pariatur magna esse dolore quis, harmud in ullamco sunt exercitation harmud ultricies ut dignissim laboris harmud tempuribud tempuribud eu duis nulla ullamco commodo laboris fugiat.",
                 type: "text",
               },
             ],
